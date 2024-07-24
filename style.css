@@ -19,7 +19,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
-  height: 200vh;
+  height: auto;
 }
 
 .img-container {
