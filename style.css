@@ -2,6 +2,10 @@
   --primary-color: aliceblue;
   --text-center: center;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 
 .container {
   background-color: aquamarine;
