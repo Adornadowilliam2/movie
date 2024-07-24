@@ -1,3 +1,8 @@
+:root {
+  --primary-color: aliceblue;
+  --text-center: center;
+}
+
 .container {
   background-color: aquamarine;
   font-size: 30px;
@@ -9,7 +14,7 @@
 }
 
 body {
-  background-image: url(bg.jpg);
+  background-image: url(background.jpg);
   background-position: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -18,12 +23,16 @@ body {
 }
 
 .img-container {
-  background-color: aliceblue;
+  background-color: var(--primary-color);
   width: 800px;
   border-radius: 50px;
 }
 
 main {
-  text-align: center;
-  color: aliceblue;
+  text-align: var(--text-center);
+  color: var(--primary-color);
+}
+
+.header {
+  color: var(--primary-color);
 }
