@@ -36,9 +36,3 @@ main {
 .header {
   color: var(--primary-color);
 }
-
-.wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
