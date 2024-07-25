@@ -4,19 +4,35 @@
     <title>Leonardo Dicarpio</title>
     <link rel="shortcut icon" href="Carpio.png" type="image" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <a href="index.html">Homepage</a> ┃ <a href="movie1.html">Movie1</a> ┃
-      <a href="movie2.html">Movie2</a> ┃ <a href="movie3.html">Movie3</a> ┃
-      <a href="movie4.html">Movie4</a> ┃ <a href="movie5.html">Movie5</a> ┃
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Leonardo DiCarpio</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movie1.html">Movie 1</a></li>
+          <li class="active"><a href="movie2.html">Movie 2</a></li>
+          <li><a href="movie3.html">Movie 3</a></li>
+          <li><a href="movie4.html">Movie 4</a></li>
+          <li><a href="movie5.html">Movie 5</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <main>
       <h1>Movie 2</h1>
       <a href="movie2.html" target="_blank"
         ><img
-          src="wolf.jpg"
+          src="media/thewolfofstreet.jpg"
           width="250"
           height="350"
           title="The Wolf of Wall Street (2013)"
